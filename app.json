@@ -4,10 +4,10 @@
     "slug": "MagnetometerApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/magnetometer.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/magnetometer.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/magnetometer.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jealabs06.MagnetometerApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/magnetometer.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3970ff87-ed4c-4988-a33b-0b8dc2b65e32"
+      }
     }
   }
 }
